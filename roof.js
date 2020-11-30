@@ -11,8 +11,8 @@ class Roof{
     }
     this.width=width;
     this.height=height;
-    this.ground=Bodies.rectangle(x,y,this.width,this.height,options);
-    World.add(world,this.ground);
+    this.roof=Bodies.rectangle(x,y,this.width,this.height,options);
+    World.add(world,this.roof);
     
     }
     
@@ -21,7 +21,7 @@ class Roof{
     
     rectMode(CENTER);
     fill ("yellow")
-rect(this.ground.position.x,this.ground.position.y,this.width,this.height);
+rect(this.roof.position.x,this.roof.position.y,this.width,this.height);
     pop();
     }
     
