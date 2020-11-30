@@ -51,7 +51,8 @@ function draw() {
   bob5.display();
  
  roof.display();
-
+rope1.display();
+	
  /*rope1.display();
  rope2.display();
  rope3.display();
